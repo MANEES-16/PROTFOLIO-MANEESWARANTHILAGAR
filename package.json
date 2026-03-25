@@ -9,10 +9,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "chmod +x node_modules/.bin/react-scripts && react-scripts build"
   },
   "browserslist": {
     "production": [">0.2%", "not dead", "not op_mini all"],
     "development": ["last 1 chrome version"]
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
